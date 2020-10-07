@@ -1,0 +1,61 @@
+.custom_md{
+	padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+ .f_row , .f_row1, .f_row2, .f_row3, .f_row4, .f_row5, .s_row, .s_row1, .s_row2, .s_row3, .s_row4,.s_row5,
+.t_row, .t_row1, .t_row2, .t_row3, .t_row4, .t_row5, .fo_row, .fo_row1, .fo_row2, .fo_row3, .fo_row4, .fo_row5,
+.fi_row, .fi_row1, .fi_row2, .fi_row3, .fi_row4, .fi_row5{
+	background-color: black;
+	border: 1px solid white;
+	text-align: center;
+    padding: 13px 0px;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 700;
+   display: none;	
+}
+.main_row{
+	background-color: black;
+	border: 1px solid white;
+	text-align: center;
+    padding: 13px 0px;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 700;
+	display: block;
+}
+
+.f_row:hover , .f_row1:hover, .f_row2:hover, .f_row3:hover, .f_row4:hover, .f_row5:hover, .s_row:hover, .s_row1:hover, .s_row2:hover, .s_row3:hover, .s_row4:hover,.s_row5:hover,
+.t_row:hover, .t_row1:hover, .t_row2:hover, .t_row3:hover, .t_row4:hover, .t_row5:hover, .fo_row:hover, .fo_row1:hover, .fo_row2:hover, .fo_row3:hover, .fo_row4:hover, .fo_row5:hover,
+.fi_row:hover, .fi_row1:hover, .fi_row2:hover, .fi_row3:hover, .fi_row4:hover, .fi_row5:hover, .si_row:hover, .sa_row:hover{
+
+	padding: 20px 0px;
+	transform: scaleX(1.2);
+	transform: scaleY(1.2);
+	font-size: 25px;
+	color: white;
+}
+.si_row, .sa_row{
+	background-color: #e71126;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    display: none;
+}
+.bio,.eng,.bang,.math,.phy,.che{
+	background-color: #2cca2c;
+    padding: 45px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+    top: 40%;
+    left:40%;
+
+}
